@@ -1,0 +1,17 @@
+{
+  "seed": 7,
+  "n_bins": 64,
+  "n_locations": 5,
+  "train_static_samples": 1100,
+  "test_static_samples": 500,
+  "test_drone_samples": 500,
+  "train_augmented_motion_samples": 1500,
+  "accuracy_train_static_test_static": 1.0,
+  "accuracy_train_static_test_drone_like": 0.392,
+  "accuracy_train_static_plus_augmented_test_drone_like": 0.996,
+  "interpretation": {
+    "static_to_static": "How well a normal static fingerprint model works when train/test conditions match.",
+    "static_to_drone_like": "How much performance drops when the same model is tested under drone-like yaw/vibration/tilt.",
+    "augmented_to_drone_like": "How much motion/pose augmentation can recover performance."
+  }
+}

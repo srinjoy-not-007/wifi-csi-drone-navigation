@@ -1,0 +1,28 @@
+Drone CSI Motion Reality Check Simulation
+=======================================
+
+This is a toy multipath CSI simulator, not a calibrated RF ray tracer.
+Its purpose is to test a drone-specific failure mode: static CSI
+fingerprints may not remain stable when the receiver yaw and vibration change.
+
+Results
+-------
+1. Static train -> static test accuracy:          0.635
+2. Static train -> drone-like test accuracy:      0.506
+3. Augmented train -> drone-like test accuracy:   0.651
+
+Interpretation
+--------------
+The static split is easiest because train and test share nearly the same
+receiver orientation distribution. The drone-like test changes receiver yaw
+and adds small antenna motion/vibration. If the static-trained model drops,
+that suggests the model learned a fragile fingerprint tied to receiver pose,
+not only location. Training with yaw/vibration augmentation improves the result,
+which suggests that a real UAV CSI system should either condition on IMU pose
+or include drone-motion variation during data collection and training.
+
+Key caveat
+----------
+This simulation is deliberately simple. It should not be reported as a real RF
+performance number. It is included as a qualitative/diagnostic experiment to
+explain why public static CSI datasets are not sufficient for drone navigation.

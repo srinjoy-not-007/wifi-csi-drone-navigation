@@ -1,0 +1,262 @@
+Accuracy: 0.9924
+Macro F1:  0.7827
+Classes:   ['Conference_Room_coordinate_1-100_1001', 'Conference_Room_coordinate_1-100_1003', 'Conference_Room_coordinate_1-100_1005', 'Conference_Room_coordinate_1-100_1006', 'Conference_Room_coordinate_1-100_1007', 'Conference_Room_coordinate_1-100_1009', 'Conference_Room_coordinate_1-100_101', 'Conference_Room_coordinate_1-100_1010', 'Conference_Room_coordinate_1-100_103', 'Conference_Room_coordinate_1-100_108', 'Conference_Room_coordinate_1-100_109', 'Conference_Room_coordinate_1-100_110', 'Conference_Room_coordinate_1-100_203', 'Conference_Room_coordinate_1-100_204', 'Conference_Room_coordinate_1-100_205', 'Conference_Room_coordinate_1-100_206', 'Conference_Room_coordinate_1-100_207', 'Conference_Room_coordinate_1-100_208', 'Conference_Room_coordinate_1-100_303', 'Conference_Room_coordinate_1-100_304', 'Conference_Room_coordinate_1-100_306', 'Conference_Room_coordinate_1-100_307', 'Conference_Room_coordinate_1-100_310', 'Conference_Room_coordinate_1-100_406', 'Conference_Room_coordinate_1-100_407', 'Conference_Room_coordinate_1-100_408', 'Conference_Room_coordinate_1-100_409', 'Conference_Room_coordinate_1-100_410', 'Conference_Room_coordinate_1-100_502', 'Conference_Room_coordinate_1-100_505', 'Conference_Room_coordinate_1-100_507', 'Conference_Room_coordinate_1-100_508', 'Conference_Room_coordinate_1-100_601', 'Conference_Room_coordinate_1-100_606', 'Conference_Room_coordinate_1-100_607', 'Conference_Room_coordinate_1-100_608', 'Conference_Room_coordinate_1-100_609', 'Conference_Room_coordinate_1-100_610', 'Conference_Room_coordinate_1-100_705', 'Conference_Room_coordinate_1-100_706', 'Conference_Room_coordinate_1-100_707', 'Conference_Room_coordinate_1-100_708', 'Conference_Room_coordinate_1-100_709', 'Conference_Room_coordinate_1-100_801', 'Conference_Room_coordinate_1-100_804', 'Conference_Room_coordinate_1-100_805', 'Conference_Room_coordinate_1-100_807', 'Conference_Room_coordinate_1-100_808', 'Conference_Room_coordinate_1-100_907', 'Conference_Room_coordinate_1-100_908', 'Conference_Room_coordinate_1-100_909', 'Conference_Room_coordinate_101-160_1103', 'Conference_Room_coordinate_101-160_1105', 'Conference_Room_coordinate_101-160_1109', 'Conference_Room_coordinate_101-160_1110', 'Conference_Room_coordinate_101-160_1201', 'Conference_Room_coordinate_101-160_1202', 'Conference_Room_coordinate_101-160_1205', 'Conference_Room_coordinate_101-160_1206', 'Conference_Room_coordinate_101-160_1207', 'Conference_Room_coordinate_101-160_1210', 'Conference_Room_coordinate_101-160_1302', 'Conference_Room_coordinate_101-160_1303', 'Conference_Room_coordinate_101-160_1305', 'Conference_Room_coordinate_101-160_1307', 'Conference_Room_coordinate_101-160_1309', 'Conference_Room_coordinate_101-160_1310', 'Conference_Room_coordinate_101-160_1402', 'Conference_Room_coordinate_101-160_1405', 'Conference_Room_coordinate_101-160_1410', 'Conference_Room_coordinate_101-160_1503', 'Conference_Room_coordinate_101-160_1505', 'Conference_Room_coordinate_101-160_1509', 'Conference_Room_coordinate_101-160_1510', 'Conference_Room_coordinate_101-160_1603', 'Conference_Room_coordinate_101-160_1605', 'Conference_Room_coordinate_101-160_1606', 'Conference_Room_coordinate_101-160_1607', 'Conference_Room_coordinate_101-160_1610', 'Lab_Dataset_coordinate_1-100_coordinate101', 'Lab_Dataset_coordinate_1-100_coordinate106', 'Lab_Dataset_coordinate_1-100_coordinate107', 'Lab_Dataset_coordinate_1-100_coordinate113', 'Lab_Dataset_coordinate_1-100_coordinate115', 'Lab_Dataset_coordinate_1-100_coordinate121', 'Lab_Dataset_coordinate_1-100_coordinate208', 'Lab_Dataset_coordinate_1-100_coordinate214', 'Lab_Dataset_coordinate_1-100_coordinate219', 'Lab_Dataset_coordinate_1-100_coordinate306', 'Lab_Dataset_coordinate_1-100_coordinate308', 'Lab_Dataset_coordinate_1-100_coordinate407', 'Lab_Dataset_coordinate_1-100_coordinate411', 'Lab_Dataset_coordinate_1-100_coordinate412', 'Lab_Dataset_coordinate_1-100_coordinate508', 'Lab_Dataset_coordinate_1-100_coordinate510', 'Lab_Dataset_coordinate_1-100_coordinate512', 'Lab_Dataset_coordinate_1-100_coordinate604', 'Lab_Dataset_coordinate_1-100_coordinate605', 'Lab_Dataset_coordinate_1-100_coordinate606', 'Lab_Dataset_coordinate_1-100_coordinate611', 'Lab_Dataset_coordinate_1-100_coordinate613', 'Lab_Dataset_coordinate_1-100_coordinate614', 'Lab_Dataset_coordinate_1-100_coordinate616', 'Lab_Dataset_coordinate_1-100_coordinate620', 'Lab_Dataset_coordinate_1-100_coordinate701', 'Lab_Dataset_coordinate_1-100_coordinate704', 'Lab_Dataset_coordinate_101-200_coordinate1006', 'Lab_Dataset_coordinate_101-200_coordinate1022', 'Lab_Dataset_coordinate_101-200_coordinate1023', 'Lab_Dataset_coordinate_101-200_coordinate1107', 'Lab_Dataset_coordinate_101-200_coordinate1111', 'Lab_Dataset_coordinate_101-200_coordinate1122', 'Lab_Dataset_coordinate_101-200_coordinate1206', 'Lab_Dataset_coordinate_101-200_coordinate1210', 'Lab_Dataset_coordinate_101-200_coordinate1212', 'Lab_Dataset_coordinate_101-200_coordinate1222', 'Lab_Dataset_coordinate_101-200_coordinate1301', 'Lab_Dataset_coordinate_101-200_coordinate1302', 'Lab_Dataset_coordinate_101-200_coordinate1304', 'Lab_Dataset_coordinate_101-200_coordinate1309', 'Lab_Dataset_coordinate_101-200_coordinate1310', 'Lab_Dataset_coordinate_101-200_coordinate1311', 'Lab_Dataset_coordinate_101-200_coordinate1312', 'Lab_Dataset_coordinate_101-200_coordinate1314', 'Lab_Dataset_coordinate_101-200_coordinate1315', 'Lab_Dataset_coordinate_101-200_coordinate1320', 'Lab_Dataset_coordinate_101-200_coordinate1322', 'Lab_Dataset_coordinate_101-200_coordinate1323', 'Lab_Dataset_coordinate_101-200_coordinate1403', 'Lab_Dataset_coordinate_101-200_coordinate705', 'Lab_Dataset_coordinate_101-200_coordinate706', 'Lab_Dataset_coordinate_101-200_coordinate709', 'Lab_Dataset_coordinate_101-200_coordinate710', 'Lab_Dataset_coordinate_101-200_coordinate714', 'Lab_Dataset_coordinate_101-200_coordinate721', 'Lab_Dataset_coordinate_101-200_coordinate722', 'Lab_Dataset_coordinate_101-200_coordinate805', 'Lab_Dataset_coordinate_101-200_coordinate806', 'Lab_Dataset_coordinate_101-200_coordinate807', 'Lab_Dataset_coordinate_101-200_coordinate809', 'Lab_Dataset_coordinate_101-200_coordinate814', 'Lab_Dataset_coordinate_101-200_coordinate815', 'Lab_Dataset_coordinate_101-200_coordinate817', 'Lab_Dataset_coordinate_101-200_coordinate822', 'Lab_Dataset_coordinate_101-200_coordinate823', 'Lab_Dataset_coordinate_101-200_coordinate908', 'Lab_Dataset_coordinate_101-200_coordinate912', 'Lab_Dataset_coordinate_101-200_coordinate922', 'Lab_Dataset_coordinate_201-300_coordinate1408', 'Lab_Dataset_coordinate_201-300_coordinate1412', 'Lab_Dataset_coordinate_201-300_coordinate1413', 'Lab_Dataset_coordinate_201-300_coordinate1418', 'Lab_Dataset_coordinate_201-300_coordinate1422', 'Lab_Dataset_coordinate_201-300_coordinate1423', 'Lab_Dataset_coordinate_201-300_coordinate1507', 'Lab_Dataset_coordinate_201-300_coordinate1508', 'Lab_Dataset_coordinate_201-300_coordinate1511', 'Lab_Dataset_coordinate_201-300_coordinate1512', 'Lab_Dataset_coordinate_201-300_coordinate1518', 'Lab_Dataset_coordinate_201-300_coordinate1521', 'Lab_Dataset_coordinate_201-300_coordinate1607', 'Lab_Dataset_coordinate_201-300_coordinate1610', 'Lab_Dataset_coordinate_201-300_coordinate1623', 'Lab_Dataset_coordinate_201-300_coordinate1706', 'Lab_Dataset_coordinate_201-300_coordinate1710', 'Lab_Dataset_coordinate_201-300_coordinate1722', 'Lab_Dataset_coordinate_201-300_coordinate1806', 'Lab_Dataset_coordinate_201-300_coordinate2001', 'Lab_Dataset_coordinate_201-300_coordinate2005', 'Lab_Dataset_coordinate_201-300_coordinate2006', 'Lab_Dataset_coordinate_201-300_coordinate2008', 'Lab_Dataset_coordinate_201-300_coordinate2010', 'Lab_Dataset_coordinate_201-300_coordinate2012', 'Lab_Dataset_coordinate_201-300_coordinate2014', 'Lab_Dataset_coordinate_201-300_coordinate2016', 'Lab_Dataset_coordinate_201-300_coordinate2020', 'Lab_Dataset_coordinate_201-300_coordinate2022', 'Lab_Dataset_coordinate_201-300_coordinate2102', 'Lab_Dataset_coordinate_301-317_coordinate2115', 'Lab_Dataset_coordinate_301-317_coordinate2116', 'Lab_Dataset_coordinate_301-317_coordinate2120', 'Lab_Dataset_coordinate_301-317_coordinate2121', 'Meeting_Room_Dataset_coordinate_1-100_coordinate1001', 'Meeting_Room_Dataset_coordinate_1-100_coordinate103', 'Meeting_Room_Dataset_coordinate_1-100_coordinate108', 'Meeting_Room_Dataset_coordinate_1-100_coordinate109', 'Meeting_Room_Dataset_coordinate_1-100_coordinate111', 'Meeting_Room_Dataset_coordinate_1-100_coordinate201', 'Meeting_Room_Dataset_coordinate_1-100_coordinate206', 'Meeting_Room_Dataset_coordinate_1-100_coordinate211', 'Meeting_Room_Dataset_coordinate_1-100_coordinate304', 'Meeting_Room_Dataset_coordinate_1-100_coordinate305', 'Meeting_Room_Dataset_coordinate_1-100_coordinate309', 'Meeting_Room_Dataset_coordinate_1-100_coordinate310', 'Meeting_Room_Dataset_coordinate_1-100_coordinate404', 'Meeting_Room_Dataset_coordinate_1-100_coordinate408', 'Meeting_Room_Dataset_coordinate_1-100_coordinate409', 'Meeting_Room_Dataset_coordinate_1-100_coordinate501', 'Meeting_Room_Dataset_coordinate_1-100_coordinate503', 'Meeting_Room_Dataset_coordinate_1-100_coordinate505', 'Meeting_Room_Dataset_coordinate_1-100_coordinate507', 'Meeting_Room_Dataset_coordinate_1-100_coordinate508', 'Meeting_Room_Dataset_coordinate_1-100_coordinate601', 'Meeting_Room_Dataset_coordinate_1-100_coordinate602', 'Meeting_Room_Dataset_coordinate_1-100_coordinate609', 'Meeting_Room_Dataset_coordinate_1-100_coordinate704', 'Meeting_Room_Dataset_coordinate_1-100_coordinate706', 'Meeting_Room_Dataset_coordinate_1-100_coordinate707', 'Meeting_Room_Dataset_coordinate_1-100_coordinate805', 'Meeting_Room_Dataset_coordinate_1-100_coordinate808', 'Meeting_Room_Dataset_coordinate_1-100_coordinate810', 'Meeting_Room_Dataset_coordinate_1-100_coordinate901', 'Meeting_Room_Dataset_coordinate_1-100_coordinate903', 'Meeting_Room_Dataset_coordinate_1-100_coordinate905', 'Meeting_Room_Dataset_coordinate_1-100_coordinate908', 'Meeting_Room_Dataset_coordinate_1-100_coordinate911', 'Meeting_Room_Dataset_coordinate_101-176_coordinate1007', 'Meeting_Room_Dataset_coordinate_101-176_coordinate1008', 'Meeting_Room_Dataset_coordinate_101-176_coordinate1009', 'Meeting_Room_Dataset_coordinate_101-176_coordinate1011', 'Meeting_Room_Dataset_coordinate_101-176_coordinate1103', 'Meeting_Room_Dataset_coordinate_101-176_coordinate1104', 'Meeting_Room_Dataset_coordinate_101-176_coordinate1201', 'Meeting_Room_Dataset_coordinate_101-176_coordinate1203', 'Meeting_Room_Dataset_coordinate_101-176_coordinate1206', 'Meeting_Room_Dataset_coordinate_101-176_coordinate1207', 'Meeting_Room_Dataset_coordinate_101-176_coordinate1208', 'Meeting_Room_Dataset_coordinate_101-176_coordinate1209', 'Meeting_Room_Dataset_coordinate_101-176_coordinate1211', 'Meeting_Room_Dataset_coordinate_101-176_coordinate1304', 'Meeting_Room_Dataset_coordinate_101-176_coordinate1306', 'Meeting_Room_Dataset_coordinate_101-176_coordinate1308', 'Meeting_Room_Dataset_coordinate_101-176_coordinate1311', 'Meeting_Room_Dataset_coordinate_101-176_coordinate1403', 'Meeting_Room_Dataset_coordinate_101-176_coordinate1410', 'Meeting_Room_Dataset_coordinate_101-176_coordinate1504', 'Meeting_Room_Dataset_coordinate_101-176_coordinate1507', 'Meeting_Room_Dataset_coordinate_101-176_coordinate1510', 'Meeting_Room_Dataset_coordinate_101-176_coordinate1604', 'Meeting_Room_Dataset_coordinate_101-176_coordinate1606', 'Meeting_Room_Dataset_coordinate_101-176_coordinate1607', 'Meeting_Room_Dataset_coordinate_101-176_coordinate1608', 'Meeting_Room_Dataset_coordinate_101-176_coordinate1609', 'miniLab_coordinate_1-35_202', 'miniLab_coordinate_1-35_207', 'miniLab_coordinate_1-35_306', 'miniLab_coordinate_1-35_401', 'miniLab_coordinate_1-35_406', 'miniLab_coordinate_1-35_502', 'miniLab_coordinate_1-35_505']
+Windows:   15260
+Features:  452
+
+                                                        precision    recall  f1-score   support
+
+                 Conference_Room_coordinate_1-100_1001       0.00      0.00      0.00         0
+                 Conference_Room_coordinate_1-100_1003       0.00      0.00      0.00         1
+                 Conference_Room_coordinate_1-100_1005       1.00      1.00      1.00         1
+                 Conference_Room_coordinate_1-100_1006       1.00      1.00      1.00         1
+                 Conference_Room_coordinate_1-100_1007       0.00      0.00      0.00         0
+                 Conference_Room_coordinate_1-100_1009       0.00      0.00      0.00         0
+                  Conference_Room_coordinate_1-100_101       1.00      1.00      1.00         1
+                 Conference_Room_coordinate_1-100_1010       0.00      0.00      0.00         0
+                  Conference_Room_coordinate_1-100_103       0.00      0.00      0.00         1
+                  Conference_Room_coordinate_1-100_108       0.00      0.00      0.00         0
+                  Conference_Room_coordinate_1-100_109       0.00      0.00      0.00         0
+                  Conference_Room_coordinate_1-100_110       0.00      0.00      0.00         0
+                  Conference_Room_coordinate_1-100_203       0.00      0.00      0.00         0
+                  Conference_Room_coordinate_1-100_204       0.00      0.00      0.00         0
+                  Conference_Room_coordinate_1-100_205       0.00      0.00      0.00         1
+                  Conference_Room_coordinate_1-100_206       0.00      0.00      0.00         1
+                  Conference_Room_coordinate_1-100_207       0.00      0.00      0.00         0
+                  Conference_Room_coordinate_1-100_208       1.00      1.00      1.00         1
+                  Conference_Room_coordinate_1-100_303       0.00      0.00      0.00         0
+                  Conference_Room_coordinate_1-100_304       0.00      0.00      0.00         0
+                  Conference_Room_coordinate_1-100_306       0.00      0.00      0.00         1
+                  Conference_Room_coordinate_1-100_307       0.00      0.00      0.00         1
+                  Conference_Room_coordinate_1-100_310       0.00      0.00      0.00         0
+                  Conference_Room_coordinate_1-100_406       0.00      0.00      0.00         1
+                  Conference_Room_coordinate_1-100_407       0.00      0.00      0.00         1
+                  Conference_Room_coordinate_1-100_408       0.00      0.00      0.00         0
+                  Conference_Room_coordinate_1-100_409       1.00      1.00      1.00         1
+                  Conference_Room_coordinate_1-100_410       0.00      0.00      0.00         1
+                  Conference_Room_coordinate_1-100_502       0.00      0.00      0.00         0
+                  Conference_Room_coordinate_1-100_505       0.00      0.00      0.00         1
+                  Conference_Room_coordinate_1-100_507       0.00      0.00      0.00         0
+                  Conference_Room_coordinate_1-100_508       0.00      0.00      0.00         0
+                  Conference_Room_coordinate_1-100_601       0.00      0.00      0.00         1
+                  Conference_Room_coordinate_1-100_606       0.00      0.00      0.00         0
+                  Conference_Room_coordinate_1-100_607       0.00      0.00      0.00         0
+                  Conference_Room_coordinate_1-100_608       0.00      0.00      0.00         0
+                  Conference_Room_coordinate_1-100_609       0.00      0.00      0.00         1
+                  Conference_Room_coordinate_1-100_610       0.00      0.00      0.00         1
+                  Conference_Room_coordinate_1-100_705       0.00      0.00      0.00         1
+                  Conference_Room_coordinate_1-100_706       0.00      0.00      0.00         0
+                  Conference_Room_coordinate_1-100_707       0.00      0.00      0.00         0
+                  Conference_Room_coordinate_1-100_708       0.00      0.00      0.00         1
+                  Conference_Room_coordinate_1-100_709       0.00      0.00      0.00         0
+                  Conference_Room_coordinate_1-100_801       0.00      0.00      0.00         1
+                  Conference_Room_coordinate_1-100_804       0.00      0.00      0.00         0
+                  Conference_Room_coordinate_1-100_805       0.00      0.00      0.00         0
+                  Conference_Room_coordinate_1-100_807       0.00      0.00      0.00         1
+                  Conference_Room_coordinate_1-100_808       0.00      0.00      0.00         0
+                  Conference_Room_coordinate_1-100_907       0.00      0.00      0.00         1
+                  Conference_Room_coordinate_1-100_908       0.00      0.00      0.00         0
+                  Conference_Room_coordinate_1-100_909       0.00      0.00      0.00         1
+               Conference_Room_coordinate_101-160_1103       0.00      0.00      0.00         1
+               Conference_Room_coordinate_101-160_1105       0.00      0.00      0.00         1
+               Conference_Room_coordinate_101-160_1109       0.00      0.00      0.00         0
+               Conference_Room_coordinate_101-160_1110       0.00      0.00      0.00         0
+               Conference_Room_coordinate_101-160_1201       0.00      0.00      0.00         1
+               Conference_Room_coordinate_101-160_1202       0.00      0.00      0.00         0
+               Conference_Room_coordinate_101-160_1205       0.50      1.00      0.67         1
+               Conference_Room_coordinate_101-160_1206       1.00      1.00      1.00         1
+               Conference_Room_coordinate_101-160_1207       1.00      1.00      1.00         1
+               Conference_Room_coordinate_101-160_1210       0.00      0.00      0.00         1
+               Conference_Room_coordinate_101-160_1302       0.00      0.00      0.00         0
+               Conference_Room_coordinate_101-160_1303       0.00      0.00      0.00         0
+               Conference_Room_coordinate_101-160_1305       0.00      0.00      0.00         1
+               Conference_Room_coordinate_101-160_1307       0.00      0.00      0.00         0
+               Conference_Room_coordinate_101-160_1309       0.00      0.00      0.00         0
+               Conference_Room_coordinate_101-160_1310       0.00      0.00      0.00         0
+               Conference_Room_coordinate_101-160_1402       0.00      0.00      0.00         0
+               Conference_Room_coordinate_101-160_1405       0.00      0.00      0.00         1
+               Conference_Room_coordinate_101-160_1410       0.00      0.00      0.00         1
+               Conference_Room_coordinate_101-160_1503       0.00      0.00      0.00         0
+               Conference_Room_coordinate_101-160_1505       0.00      0.00      0.00         1
+               Conference_Room_coordinate_101-160_1509       0.00      0.00      0.00         0
+               Conference_Room_coordinate_101-160_1510       0.00      0.00      0.00         0
+               Conference_Room_coordinate_101-160_1603       1.00      1.00      1.00         1
+               Conference_Room_coordinate_101-160_1605       0.00      0.00      0.00         0
+               Conference_Room_coordinate_101-160_1606       1.00      1.00      1.00         1
+               Conference_Room_coordinate_101-160_1607       0.00      0.00      0.00         1
+               Conference_Room_coordinate_101-160_1610       0.00      0.00      0.00         0
+            Lab_Dataset_coordinate_1-100_coordinate101       1.00      1.00      1.00        23
+            Lab_Dataset_coordinate_1-100_coordinate106       1.00      1.00      1.00        23
+            Lab_Dataset_coordinate_1-100_coordinate107       1.00      1.00      1.00        23
+            Lab_Dataset_coordinate_1-100_coordinate113       1.00      1.00      1.00        23
+            Lab_Dataset_coordinate_1-100_coordinate115       1.00      1.00      1.00        23
+            Lab_Dataset_coordinate_1-100_coordinate121       1.00      1.00      1.00        23
+            Lab_Dataset_coordinate_1-100_coordinate208       1.00      1.00      1.00        23
+            Lab_Dataset_coordinate_1-100_coordinate214       1.00      1.00      1.00        23
+            Lab_Dataset_coordinate_1-100_coordinate219       1.00      1.00      1.00        23
+            Lab_Dataset_coordinate_1-100_coordinate306       1.00      1.00      1.00        23
+            Lab_Dataset_coordinate_1-100_coordinate308       1.00      1.00      1.00        23
+            Lab_Dataset_coordinate_1-100_coordinate407       1.00      1.00      1.00        23
+            Lab_Dataset_coordinate_1-100_coordinate411       1.00      1.00      1.00        23
+            Lab_Dataset_coordinate_1-100_coordinate412       1.00      1.00      1.00        23
+            Lab_Dataset_coordinate_1-100_coordinate508       1.00      1.00      1.00        23
+            Lab_Dataset_coordinate_1-100_coordinate510       1.00      1.00      1.00        23
+            Lab_Dataset_coordinate_1-100_coordinate512       1.00      1.00      1.00        23
+            Lab_Dataset_coordinate_1-100_coordinate604       1.00      1.00      1.00        23
+            Lab_Dataset_coordinate_1-100_coordinate605       1.00      1.00      1.00        23
+            Lab_Dataset_coordinate_1-100_coordinate606       1.00      1.00      1.00        23
+            Lab_Dataset_coordinate_1-100_coordinate611       1.00      1.00      1.00        23
+            Lab_Dataset_coordinate_1-100_coordinate613       1.00      1.00      1.00        23
+            Lab_Dataset_coordinate_1-100_coordinate614       1.00      1.00      1.00        23
+            Lab_Dataset_coordinate_1-100_coordinate616       1.00      1.00      1.00        23
+            Lab_Dataset_coordinate_1-100_coordinate620       1.00      1.00      1.00        23
+            Lab_Dataset_coordinate_1-100_coordinate701       1.00      1.00      1.00        23
+            Lab_Dataset_coordinate_1-100_coordinate704       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_101-200_coordinate1006       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_101-200_coordinate1022       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_101-200_coordinate1023       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_101-200_coordinate1107       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_101-200_coordinate1111       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_101-200_coordinate1122       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_101-200_coordinate1206       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_101-200_coordinate1210       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_101-200_coordinate1212       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_101-200_coordinate1222       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_101-200_coordinate1301       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_101-200_coordinate1302       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_101-200_coordinate1304       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_101-200_coordinate1309       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_101-200_coordinate1310       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_101-200_coordinate1311       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_101-200_coordinate1312       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_101-200_coordinate1314       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_101-200_coordinate1315       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_101-200_coordinate1320       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_101-200_coordinate1322       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_101-200_coordinate1323       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_101-200_coordinate1403       1.00      1.00      1.00        23
+          Lab_Dataset_coordinate_101-200_coordinate705       1.00      1.00      1.00        23
+          Lab_Dataset_coordinate_101-200_coordinate706       1.00      1.00      1.00        23
+          Lab_Dataset_coordinate_101-200_coordinate709       1.00      1.00      1.00        23
+          Lab_Dataset_coordinate_101-200_coordinate710       1.00      1.00      1.00        23
+          Lab_Dataset_coordinate_101-200_coordinate714       1.00      1.00      1.00        23
+          Lab_Dataset_coordinate_101-200_coordinate721       1.00      1.00      1.00        23
+          Lab_Dataset_coordinate_101-200_coordinate722       1.00      1.00      1.00        23
+          Lab_Dataset_coordinate_101-200_coordinate805       1.00      1.00      1.00        23
+          Lab_Dataset_coordinate_101-200_coordinate806       1.00      1.00      1.00        23
+          Lab_Dataset_coordinate_101-200_coordinate807       1.00      1.00      1.00        23
+          Lab_Dataset_coordinate_101-200_coordinate809       1.00      1.00      1.00        23
+          Lab_Dataset_coordinate_101-200_coordinate814       1.00      1.00      1.00        23
+          Lab_Dataset_coordinate_101-200_coordinate815       1.00      1.00      1.00        23
+          Lab_Dataset_coordinate_101-200_coordinate817       1.00      1.00      1.00        23
+          Lab_Dataset_coordinate_101-200_coordinate822       1.00      1.00      1.00        23
+          Lab_Dataset_coordinate_101-200_coordinate823       1.00      1.00      1.00        23
+          Lab_Dataset_coordinate_101-200_coordinate908       1.00      1.00      1.00        23
+          Lab_Dataset_coordinate_101-200_coordinate912       1.00      1.00      1.00        23
+          Lab_Dataset_coordinate_101-200_coordinate922       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_201-300_coordinate1408       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_201-300_coordinate1412       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_201-300_coordinate1413       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_201-300_coordinate1418       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_201-300_coordinate1422       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_201-300_coordinate1423       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_201-300_coordinate1507       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_201-300_coordinate1508       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_201-300_coordinate1511       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_201-300_coordinate1512       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_201-300_coordinate1518       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_201-300_coordinate1521       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_201-300_coordinate1607       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_201-300_coordinate1610       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_201-300_coordinate1623       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_201-300_coordinate1706       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_201-300_coordinate1710       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_201-300_coordinate1722       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_201-300_coordinate1806       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_201-300_coordinate2001       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_201-300_coordinate2005       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_201-300_coordinate2006       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_201-300_coordinate2008       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_201-300_coordinate2010       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_201-300_coordinate2012       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_201-300_coordinate2014       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_201-300_coordinate2016       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_201-300_coordinate2020       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_201-300_coordinate2022       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_201-300_coordinate2102       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_301-317_coordinate2115       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_301-317_coordinate2116       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_301-317_coordinate2120       1.00      1.00      1.00        23
+         Lab_Dataset_coordinate_301-317_coordinate2121       1.00      1.00      1.00        23
+  Meeting_Room_Dataset_coordinate_1-100_coordinate1001       1.00      1.00      1.00        23
+   Meeting_Room_Dataset_coordinate_1-100_coordinate103       1.00      1.00      1.00        23
+   Meeting_Room_Dataset_coordinate_1-100_coordinate108       1.00      1.00      1.00        23
+   Meeting_Room_Dataset_coordinate_1-100_coordinate109       1.00      1.00      1.00        23
+   Meeting_Room_Dataset_coordinate_1-100_coordinate111       1.00      1.00      1.00        23
+   Meeting_Room_Dataset_coordinate_1-100_coordinate201       1.00      1.00      1.00        23
+   Meeting_Room_Dataset_coordinate_1-100_coordinate206       1.00      1.00      1.00        23
+   Meeting_Room_Dataset_coordinate_1-100_coordinate211       1.00      1.00      1.00        23
+   Meeting_Room_Dataset_coordinate_1-100_coordinate304       1.00      1.00      1.00        23
+   Meeting_Room_Dataset_coordinate_1-100_coordinate305       1.00      1.00      1.00        23
+   Meeting_Room_Dataset_coordinate_1-100_coordinate309       1.00      1.00      1.00        23
+   Meeting_Room_Dataset_coordinate_1-100_coordinate310       1.00      1.00      1.00        23
+   Meeting_Room_Dataset_coordinate_1-100_coordinate404       1.00      1.00      1.00        23
+   Meeting_Room_Dataset_coordinate_1-100_coordinate408       1.00      1.00      1.00        23
+   Meeting_Room_Dataset_coordinate_1-100_coordinate409       1.00      1.00      1.00        23
+   Meeting_Room_Dataset_coordinate_1-100_coordinate501       1.00      1.00      1.00        23
+   Meeting_Room_Dataset_coordinate_1-100_coordinate503       1.00      1.00      1.00        23
+   Meeting_Room_Dataset_coordinate_1-100_coordinate505       1.00      1.00      1.00        23
+   Meeting_Room_Dataset_coordinate_1-100_coordinate507       1.00      1.00      1.00        23
+   Meeting_Room_Dataset_coordinate_1-100_coordinate508       1.00      1.00      1.00        23
+   Meeting_Room_Dataset_coordinate_1-100_coordinate601       1.00      1.00      1.00        23
+   Meeting_Room_Dataset_coordinate_1-100_coordinate602       1.00      1.00      1.00        23
+   Meeting_Room_Dataset_coordinate_1-100_coordinate609       1.00      1.00      1.00        23
+   Meeting_Room_Dataset_coordinate_1-100_coordinate704       1.00      1.00      1.00        23
+   Meeting_Room_Dataset_coordinate_1-100_coordinate706       1.00      1.00      1.00        23
+   Meeting_Room_Dataset_coordinate_1-100_coordinate707       1.00      1.00      1.00        23
+   Meeting_Room_Dataset_coordinate_1-100_coordinate805       1.00      1.00      1.00        23
+   Meeting_Room_Dataset_coordinate_1-100_coordinate808       1.00      1.00      1.00        23
+   Meeting_Room_Dataset_coordinate_1-100_coordinate810       1.00      1.00      1.00        23
+   Meeting_Room_Dataset_coordinate_1-100_coordinate901       1.00      1.00      1.00        23
+   Meeting_Room_Dataset_coordinate_1-100_coordinate903       1.00      1.00      1.00        23
+   Meeting_Room_Dataset_coordinate_1-100_coordinate905       1.00      1.00      1.00        23
+   Meeting_Room_Dataset_coordinate_1-100_coordinate908       1.00      1.00      1.00        23
+   Meeting_Room_Dataset_coordinate_1-100_coordinate911       1.00      1.00      1.00        23
+Meeting_Room_Dataset_coordinate_101-176_coordinate1007       1.00      1.00      1.00        23
+Meeting_Room_Dataset_coordinate_101-176_coordinate1008       1.00      1.00      1.00        23
+Meeting_Room_Dataset_coordinate_101-176_coordinate1009       1.00      1.00      1.00        23
+Meeting_Room_Dataset_coordinate_101-176_coordinate1011       1.00      1.00      1.00        23
+Meeting_Room_Dataset_coordinate_101-176_coordinate1103       1.00      1.00      1.00        23
+Meeting_Room_Dataset_coordinate_101-176_coordinate1104       1.00      1.00      1.00        23
+Meeting_Room_Dataset_coordinate_101-176_coordinate1201       1.00      1.00      1.00        23
+Meeting_Room_Dataset_coordinate_101-176_coordinate1203       1.00      1.00      1.00        23
+Meeting_Room_Dataset_coordinate_101-176_coordinate1206       1.00      1.00      1.00        23
+Meeting_Room_Dataset_coordinate_101-176_coordinate1207       1.00      1.00      1.00        23
+Meeting_Room_Dataset_coordinate_101-176_coordinate1208       1.00      1.00      1.00        23
+Meeting_Room_Dataset_coordinate_101-176_coordinate1209       1.00      1.00      1.00        23
+Meeting_Room_Dataset_coordinate_101-176_coordinate1211       1.00      1.00      1.00        23
+Meeting_Room_Dataset_coordinate_101-176_coordinate1304       1.00      1.00      1.00        23
+Meeting_Room_Dataset_coordinate_101-176_coordinate1306       1.00      1.00      1.00        23
+Meeting_Room_Dataset_coordinate_101-176_coordinate1308       1.00      1.00      1.00        23
+Meeting_Room_Dataset_coordinate_101-176_coordinate1311       1.00      1.00      1.00        23
+Meeting_Room_Dataset_coordinate_101-176_coordinate1403       1.00      1.00      1.00        23
+Meeting_Room_Dataset_coordinate_101-176_coordinate1410       1.00      1.00      1.00        23
+Meeting_Room_Dataset_coordinate_101-176_coordinate1504       1.00      1.00      1.00        23
+Meeting_Room_Dataset_coordinate_101-176_coordinate1507       1.00      1.00      1.00        23
+Meeting_Room_Dataset_coordinate_101-176_coordinate1510       1.00      1.00      1.00        23
+Meeting_Room_Dataset_coordinate_101-176_coordinate1604       1.00      1.00      1.00        23
+Meeting_Room_Dataset_coordinate_101-176_coordinate1606       1.00      1.00      1.00        23
+Meeting_Room_Dataset_coordinate_101-176_coordinate1607       1.00      1.00      1.00        23
+Meeting_Room_Dataset_coordinate_101-176_coordinate1608       1.00      1.00      1.00        23
+Meeting_Room_Dataset_coordinate_101-176_coordinate1609       1.00      1.00      1.00        23
+                           miniLab_coordinate_1-35_202       1.00      1.00      1.00         1
+                           miniLab_coordinate_1-35_207       1.00      1.00      1.00         1
+                           miniLab_coordinate_1-35_306       1.00      1.00      1.00         1
+                           miniLab_coordinate_1-35_401       0.00      0.00      0.00         0
+                           miniLab_coordinate_1-35_406       0.00      0.00      0.00         0
+                           miniLab_coordinate_1-35_502       1.00      1.00      1.00         1
+                           miniLab_coordinate_1-35_505       0.00      0.00      0.00         1
+
+                                              accuracy                           0.99      3815
+                                             macro avg       0.71      0.71      0.71      3815
+                                          weighted avg       0.99      0.99      0.99      3815

@@ -1,0 +1,13 @@
+{
+  "static_train_static_test_accuracy": 0.6349206349206349,
+  "static_train_drone_test_accuracy": 0.5055555555555555,
+  "augmented_train_drone_test_accuracy": 0.6507936507936508,
+  "n_zones": 4,
+  "n_per_zone_per_scenario": 45,
+  "room_m": {
+    "width": 10.0,
+    "height": 7.0
+  },
+  "subcarriers": 64,
+  "packets_per_window": 24
+}

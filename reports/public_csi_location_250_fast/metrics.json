@@ -1,0 +1,1781 @@
+{
+  "demo_mode": false,
+  "n_windows": 15260,
+  "n_files_or_groups": 250,
+  "n_features": 452,
+  "classes": [
+    "Conference_Room_coordinate_1-100_1001",
+    "Conference_Room_coordinate_1-100_1003",
+    "Conference_Room_coordinate_1-100_1005",
+    "Conference_Room_coordinate_1-100_1006",
+    "Conference_Room_coordinate_1-100_1007",
+    "Conference_Room_coordinate_1-100_1009",
+    "Conference_Room_coordinate_1-100_101",
+    "Conference_Room_coordinate_1-100_1010",
+    "Conference_Room_coordinate_1-100_103",
+    "Conference_Room_coordinate_1-100_108",
+    "Conference_Room_coordinate_1-100_109",
+    "Conference_Room_coordinate_1-100_110",
+    "Conference_Room_coordinate_1-100_203",
+    "Conference_Room_coordinate_1-100_204",
+    "Conference_Room_coordinate_1-100_205",
+    "Conference_Room_coordinate_1-100_206",
+    "Conference_Room_coordinate_1-100_207",
+    "Conference_Room_coordinate_1-100_208",
+    "Conference_Room_coordinate_1-100_303",
+    "Conference_Room_coordinate_1-100_304",
+    "Conference_Room_coordinate_1-100_306",
+    "Conference_Room_coordinate_1-100_307",
+    "Conference_Room_coordinate_1-100_310",
+    "Conference_Room_coordinate_1-100_406",
+    "Conference_Room_coordinate_1-100_407",
+    "Conference_Room_coordinate_1-100_408",
+    "Conference_Room_coordinate_1-100_409",
+    "Conference_Room_coordinate_1-100_410",
+    "Conference_Room_coordinate_1-100_502",
+    "Conference_Room_coordinate_1-100_505",
+    "Conference_Room_coordinate_1-100_507",
+    "Conference_Room_coordinate_1-100_508",
+    "Conference_Room_coordinate_1-100_601",
+    "Conference_Room_coordinate_1-100_606",
+    "Conference_Room_coordinate_1-100_607",
+    "Conference_Room_coordinate_1-100_608",
+    "Conference_Room_coordinate_1-100_609",
+    "Conference_Room_coordinate_1-100_610",
+    "Conference_Room_coordinate_1-100_705",
+    "Conference_Room_coordinate_1-100_706",
+    "Conference_Room_coordinate_1-100_707",
+    "Conference_Room_coordinate_1-100_708",
+    "Conference_Room_coordinate_1-100_709",
+    "Conference_Room_coordinate_1-100_801",
+    "Conference_Room_coordinate_1-100_804",
+    "Conference_Room_coordinate_1-100_805",
+    "Conference_Room_coordinate_1-100_807",
+    "Conference_Room_coordinate_1-100_808",
+    "Conference_Room_coordinate_1-100_907",
+    "Conference_Room_coordinate_1-100_908",
+    "Conference_Room_coordinate_1-100_909",
+    "Conference_Room_coordinate_101-160_1103",
+    "Conference_Room_coordinate_101-160_1105",
+    "Conference_Room_coordinate_101-160_1109",
+    "Conference_Room_coordinate_101-160_1110",
+    "Conference_Room_coordinate_101-160_1201",
+    "Conference_Room_coordinate_101-160_1202",
+    "Conference_Room_coordinate_101-160_1205",
+    "Conference_Room_coordinate_101-160_1206",
+    "Conference_Room_coordinate_101-160_1207",
+    "Conference_Room_coordinate_101-160_1210",
+    "Conference_Room_coordinate_101-160_1302",
+    "Conference_Room_coordinate_101-160_1303",
+    "Conference_Room_coordinate_101-160_1305",
+    "Conference_Room_coordinate_101-160_1307",
+    "Conference_Room_coordinate_101-160_1309",
+    "Conference_Room_coordinate_101-160_1310",
+    "Conference_Room_coordinate_101-160_1402",
+    "Conference_Room_coordinate_101-160_1405",
+    "Conference_Room_coordinate_101-160_1410",
+    "Conference_Room_coordinate_101-160_1503",
+    "Conference_Room_coordinate_101-160_1505",
+    "Conference_Room_coordinate_101-160_1509",
+    "Conference_Room_coordinate_101-160_1510",
+    "Conference_Room_coordinate_101-160_1603",
+    "Conference_Room_coordinate_101-160_1605",
+    "Conference_Room_coordinate_101-160_1606",
+    "Conference_Room_coordinate_101-160_1607",
+    "Conference_Room_coordinate_101-160_1610",
+    "Lab_Dataset_coordinate_1-100_coordinate101",
+    "Lab_Dataset_coordinate_1-100_coordinate106",
+    "Lab_Dataset_coordinate_1-100_coordinate107",
+    "Lab_Dataset_coordinate_1-100_coordinate113",
+    "Lab_Dataset_coordinate_1-100_coordinate115",
+    "Lab_Dataset_coordinate_1-100_coordinate121",
+    "Lab_Dataset_coordinate_1-100_coordinate208",
+    "Lab_Dataset_coordinate_1-100_coordinate214",
+    "Lab_Dataset_coordinate_1-100_coordinate219",
+    "Lab_Dataset_coordinate_1-100_coordinate306",
+    "Lab_Dataset_coordinate_1-100_coordinate308",
+    "Lab_Dataset_coordinate_1-100_coordinate407",
+    "Lab_Dataset_coordinate_1-100_coordinate411",
+    "Lab_Dataset_coordinate_1-100_coordinate412",
+    "Lab_Dataset_coordinate_1-100_coordinate508",
+    "Lab_Dataset_coordinate_1-100_coordinate510",
+    "Lab_Dataset_coordinate_1-100_coordinate512",
+    "Lab_Dataset_coordinate_1-100_coordinate604",
+    "Lab_Dataset_coordinate_1-100_coordinate605",
+    "Lab_Dataset_coordinate_1-100_coordinate606",
+    "Lab_Dataset_coordinate_1-100_coordinate611",
+    "Lab_Dataset_coordinate_1-100_coordinate613",
+    "Lab_Dataset_coordinate_1-100_coordinate614",
+    "Lab_Dataset_coordinate_1-100_coordinate616",
+    "Lab_Dataset_coordinate_1-100_coordinate620",
+    "Lab_Dataset_coordinate_1-100_coordinate701",
+    "Lab_Dataset_coordinate_1-100_coordinate704",
+    "Lab_Dataset_coordinate_101-200_coordinate1006",
+    "Lab_Dataset_coordinate_101-200_coordinate1022",
+    "Lab_Dataset_coordinate_101-200_coordinate1023",
+    "Lab_Dataset_coordinate_101-200_coordinate1107",
+    "Lab_Dataset_coordinate_101-200_coordinate1111",
+    "Lab_Dataset_coordinate_101-200_coordinate1122",
+    "Lab_Dataset_coordinate_101-200_coordinate1206",
+    "Lab_Dataset_coordinate_101-200_coordinate1210",
+    "Lab_Dataset_coordinate_101-200_coordinate1212",
+    "Lab_Dataset_coordinate_101-200_coordinate1222",
+    "Lab_Dataset_coordinate_101-200_coordinate1301",
+    "Lab_Dataset_coordinate_101-200_coordinate1302",
+    "Lab_Dataset_coordinate_101-200_coordinate1304",
+    "Lab_Dataset_coordinate_101-200_coordinate1309",
+    "Lab_Dataset_coordinate_101-200_coordinate1310",
+    "Lab_Dataset_coordinate_101-200_coordinate1311",
+    "Lab_Dataset_coordinate_101-200_coordinate1312",
+    "Lab_Dataset_coordinate_101-200_coordinate1314",
+    "Lab_Dataset_coordinate_101-200_coordinate1315",
+    "Lab_Dataset_coordinate_101-200_coordinate1320",
+    "Lab_Dataset_coordinate_101-200_coordinate1322",
+    "Lab_Dataset_coordinate_101-200_coordinate1323",
+    "Lab_Dataset_coordinate_101-200_coordinate1403",
+    "Lab_Dataset_coordinate_101-200_coordinate705",
+    "Lab_Dataset_coordinate_101-200_coordinate706",
+    "Lab_Dataset_coordinate_101-200_coordinate709",
+    "Lab_Dataset_coordinate_101-200_coordinate710",
+    "Lab_Dataset_coordinate_101-200_coordinate714",
+    "Lab_Dataset_coordinate_101-200_coordinate721",
+    "Lab_Dataset_coordinate_101-200_coordinate722",
+    "Lab_Dataset_coordinate_101-200_coordinate805",
+    "Lab_Dataset_coordinate_101-200_coordinate806",
+    "Lab_Dataset_coordinate_101-200_coordinate807",
+    "Lab_Dataset_coordinate_101-200_coordinate809",
+    "Lab_Dataset_coordinate_101-200_coordinate814",
+    "Lab_Dataset_coordinate_101-200_coordinate815",
+    "Lab_Dataset_coordinate_101-200_coordinate817",
+    "Lab_Dataset_coordinate_101-200_coordinate822",
+    "Lab_Dataset_coordinate_101-200_coordinate823",
+    "Lab_Dataset_coordinate_101-200_coordinate908",
+    "Lab_Dataset_coordinate_101-200_coordinate912",
+    "Lab_Dataset_coordinate_101-200_coordinate922",
+    "Lab_Dataset_coordinate_201-300_coordinate1408",
+    "Lab_Dataset_coordinate_201-300_coordinate1412",
+    "Lab_Dataset_coordinate_201-300_coordinate1413",
+    "Lab_Dataset_coordinate_201-300_coordinate1418",
+    "Lab_Dataset_coordinate_201-300_coordinate1422",
+    "Lab_Dataset_coordinate_201-300_coordinate1423",
+    "Lab_Dataset_coordinate_201-300_coordinate1507",
+    "Lab_Dataset_coordinate_201-300_coordinate1508",
+    "Lab_Dataset_coordinate_201-300_coordinate1511",
+    "Lab_Dataset_coordinate_201-300_coordinate1512",
+    "Lab_Dataset_coordinate_201-300_coordinate1518",
+    "Lab_Dataset_coordinate_201-300_coordinate1521",
+    "Lab_Dataset_coordinate_201-300_coordinate1607",
+    "Lab_Dataset_coordinate_201-300_coordinate1610",
+    "Lab_Dataset_coordinate_201-300_coordinate1623",
+    "Lab_Dataset_coordinate_201-300_coordinate1706",
+    "Lab_Dataset_coordinate_201-300_coordinate1710",
+    "Lab_Dataset_coordinate_201-300_coordinate1722",
+    "Lab_Dataset_coordinate_201-300_coordinate1806",
+    "Lab_Dataset_coordinate_201-300_coordinate2001",
+    "Lab_Dataset_coordinate_201-300_coordinate2005",
+    "Lab_Dataset_coordinate_201-300_coordinate2006",
+    "Lab_Dataset_coordinate_201-300_coordinate2008",
+    "Lab_Dataset_coordinate_201-300_coordinate2010",
+    "Lab_Dataset_coordinate_201-300_coordinate2012",
+    "Lab_Dataset_coordinate_201-300_coordinate2014",
+    "Lab_Dataset_coordinate_201-300_coordinate2016",
+    "Lab_Dataset_coordinate_201-300_coordinate2020",
+    "Lab_Dataset_coordinate_201-300_coordinate2022",
+    "Lab_Dataset_coordinate_201-300_coordinate2102",
+    "Lab_Dataset_coordinate_301-317_coordinate2115",
+    "Lab_Dataset_coordinate_301-317_coordinate2116",
+    "Lab_Dataset_coordinate_301-317_coordinate2120",
+    "Lab_Dataset_coordinate_301-317_coordinate2121",
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate1001",
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate103",
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate108",
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate109",
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate111",
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate201",
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate206",
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate211",
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate304",
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate305",
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate309",
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate310",
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate404",
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate408",
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate409",
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate501",
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate503",
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate505",
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate507",
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate508",
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate601",
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate602",
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate609",
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate704",
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate706",
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate707",
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate805",
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate808",
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate810",
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate901",
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate903",
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate905",
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate908",
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate911",
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1007",
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1008",
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1009",
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1011",
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1103",
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1104",
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1201",
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1203",
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1206",
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1207",
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1208",
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1209",
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1211",
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1304",
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1306",
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1308",
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1311",
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1403",
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1410",
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1504",
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1507",
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1510",
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1604",
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1606",
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1607",
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1608",
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1609",
+    "miniLab_coordinate_1-35_202",
+    "miniLab_coordinate_1-35_207",
+    "miniLab_coordinate_1-35_306",
+    "miniLab_coordinate_1-35_401",
+    "miniLab_coordinate_1-35_406",
+    "miniLab_coordinate_1-35_502",
+    "miniLab_coordinate_1-35_505"
+  ],
+  "model": "rf",
+  "window_size": 32,
+  "stride": 16,
+  "use_phase": false,
+  "test_size": 0.25,
+  "accuracy": 0.9923984272608126,
+  "f1_macro": 0.7826725403817915,
+  "classification_report": {
+    "Conference_Room_coordinate_1-100_1001": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Conference_Room_coordinate_1-100_1003": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "Conference_Room_coordinate_1-100_1005": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "Conference_Room_coordinate_1-100_1006": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "Conference_Room_coordinate_1-100_1007": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Conference_Room_coordinate_1-100_1009": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Conference_Room_coordinate_1-100_101": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "Conference_Room_coordinate_1-100_1010": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Conference_Room_coordinate_1-100_103": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "Conference_Room_coordinate_1-100_108": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Conference_Room_coordinate_1-100_109": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Conference_Room_coordinate_1-100_110": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Conference_Room_coordinate_1-100_203": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Conference_Room_coordinate_1-100_204": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Conference_Room_coordinate_1-100_205": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "Conference_Room_coordinate_1-100_206": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "Conference_Room_coordinate_1-100_207": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Conference_Room_coordinate_1-100_208": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "Conference_Room_coordinate_1-100_303": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Conference_Room_coordinate_1-100_304": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Conference_Room_coordinate_1-100_306": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "Conference_Room_coordinate_1-100_307": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "Conference_Room_coordinate_1-100_310": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Conference_Room_coordinate_1-100_406": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "Conference_Room_coordinate_1-100_407": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "Conference_Room_coordinate_1-100_408": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Conference_Room_coordinate_1-100_409": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "Conference_Room_coordinate_1-100_410": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "Conference_Room_coordinate_1-100_502": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Conference_Room_coordinate_1-100_505": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "Conference_Room_coordinate_1-100_507": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Conference_Room_coordinate_1-100_508": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Conference_Room_coordinate_1-100_601": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "Conference_Room_coordinate_1-100_606": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Conference_Room_coordinate_1-100_607": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Conference_Room_coordinate_1-100_608": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Conference_Room_coordinate_1-100_609": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "Conference_Room_coordinate_1-100_610": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "Conference_Room_coordinate_1-100_705": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "Conference_Room_coordinate_1-100_706": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Conference_Room_coordinate_1-100_707": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Conference_Room_coordinate_1-100_708": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "Conference_Room_coordinate_1-100_709": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Conference_Room_coordinate_1-100_801": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "Conference_Room_coordinate_1-100_804": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Conference_Room_coordinate_1-100_805": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Conference_Room_coordinate_1-100_807": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "Conference_Room_coordinate_1-100_808": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Conference_Room_coordinate_1-100_907": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "Conference_Room_coordinate_1-100_908": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Conference_Room_coordinate_1-100_909": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "Conference_Room_coordinate_101-160_1103": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "Conference_Room_coordinate_101-160_1105": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "Conference_Room_coordinate_101-160_1109": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Conference_Room_coordinate_101-160_1110": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Conference_Room_coordinate_101-160_1201": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "Conference_Room_coordinate_101-160_1202": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Conference_Room_coordinate_101-160_1205": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1-score": 0.6666666666666666,
+      "support": 1.0
+    },
+    "Conference_Room_coordinate_101-160_1206": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "Conference_Room_coordinate_101-160_1207": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "Conference_Room_coordinate_101-160_1210": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "Conference_Room_coordinate_101-160_1302": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Conference_Room_coordinate_101-160_1303": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Conference_Room_coordinate_101-160_1305": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "Conference_Room_coordinate_101-160_1307": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Conference_Room_coordinate_101-160_1309": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Conference_Room_coordinate_101-160_1310": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Conference_Room_coordinate_101-160_1402": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Conference_Room_coordinate_101-160_1405": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "Conference_Room_coordinate_101-160_1410": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "Conference_Room_coordinate_101-160_1503": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Conference_Room_coordinate_101-160_1505": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "Conference_Room_coordinate_101-160_1509": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Conference_Room_coordinate_101-160_1510": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Conference_Room_coordinate_101-160_1603": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "Conference_Room_coordinate_101-160_1605": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Conference_Room_coordinate_101-160_1606": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "Conference_Room_coordinate_101-160_1607": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "Conference_Room_coordinate_101-160_1610": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "Lab_Dataset_coordinate_1-100_coordinate101": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_1-100_coordinate106": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_1-100_coordinate107": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_1-100_coordinate113": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_1-100_coordinate115": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_1-100_coordinate121": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_1-100_coordinate208": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_1-100_coordinate214": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_1-100_coordinate219": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_1-100_coordinate306": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_1-100_coordinate308": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_1-100_coordinate407": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_1-100_coordinate411": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_1-100_coordinate412": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_1-100_coordinate508": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_1-100_coordinate510": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_1-100_coordinate512": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_1-100_coordinate604": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_1-100_coordinate605": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_1-100_coordinate606": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_1-100_coordinate611": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_1-100_coordinate613": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_1-100_coordinate614": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_1-100_coordinate616": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_1-100_coordinate620": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_1-100_coordinate701": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_1-100_coordinate704": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_101-200_coordinate1006": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_101-200_coordinate1022": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_101-200_coordinate1023": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_101-200_coordinate1107": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_101-200_coordinate1111": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_101-200_coordinate1122": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_101-200_coordinate1206": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_101-200_coordinate1210": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_101-200_coordinate1212": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_101-200_coordinate1222": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_101-200_coordinate1301": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_101-200_coordinate1302": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_101-200_coordinate1304": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_101-200_coordinate1309": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_101-200_coordinate1310": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_101-200_coordinate1311": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_101-200_coordinate1312": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_101-200_coordinate1314": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_101-200_coordinate1315": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_101-200_coordinate1320": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_101-200_coordinate1322": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_101-200_coordinate1323": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_101-200_coordinate1403": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_101-200_coordinate705": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_101-200_coordinate706": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_101-200_coordinate709": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_101-200_coordinate710": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_101-200_coordinate714": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_101-200_coordinate721": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_101-200_coordinate722": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_101-200_coordinate805": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_101-200_coordinate806": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_101-200_coordinate807": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_101-200_coordinate809": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_101-200_coordinate814": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_101-200_coordinate815": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_101-200_coordinate817": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_101-200_coordinate822": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_101-200_coordinate823": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_101-200_coordinate908": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_101-200_coordinate912": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_101-200_coordinate922": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_201-300_coordinate1408": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_201-300_coordinate1412": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_201-300_coordinate1413": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_201-300_coordinate1418": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_201-300_coordinate1422": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_201-300_coordinate1423": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_201-300_coordinate1507": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_201-300_coordinate1508": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_201-300_coordinate1511": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_201-300_coordinate1512": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_201-300_coordinate1518": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_201-300_coordinate1521": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_201-300_coordinate1607": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_201-300_coordinate1610": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_201-300_coordinate1623": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_201-300_coordinate1706": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_201-300_coordinate1710": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_201-300_coordinate1722": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_201-300_coordinate1806": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_201-300_coordinate2001": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_201-300_coordinate2005": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_201-300_coordinate2006": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_201-300_coordinate2008": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_201-300_coordinate2010": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_201-300_coordinate2012": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_201-300_coordinate2014": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_201-300_coordinate2016": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_201-300_coordinate2020": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_201-300_coordinate2022": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_201-300_coordinate2102": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_301-317_coordinate2115": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_301-317_coordinate2116": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_301-317_coordinate2120": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Lab_Dataset_coordinate_301-317_coordinate2121": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate1001": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate103": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate108": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate109": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate111": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate201": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate206": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate211": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate304": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate305": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate309": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate310": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate404": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate408": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate409": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate501": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate503": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate505": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate507": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate508": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate601": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate602": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate609": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate704": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate706": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate707": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate805": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate808": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate810": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate901": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate903": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate905": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate908": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_1-100_coordinate911": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1007": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1008": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1009": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1011": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1103": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1104": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1201": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1203": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1206": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1207": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1208": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1209": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1211": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1304": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1306": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1308": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1311": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1403": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1410": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1504": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1507": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1510": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1604": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1606": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1607": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1608": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "Meeting_Room_Dataset_coordinate_101-176_coordinate1609": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 23.0
+    },
+    "miniLab_coordinate_1-35_202": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "miniLab_coordinate_1-35_207": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "miniLab_coordinate_1-35_306": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "miniLab_coordinate_1-35_401": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "miniLab_coordinate_1-35_406": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "miniLab_coordinate_1-35_502": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "miniLab_coordinate_1-35_505": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "accuracy": 0.9923984272608126,
+    "macro avg": {
+      "precision": 0.71,
+      "recall": 0.712,
+      "f1-score": 0.7106666666666667,
+      "support": 3815.0
+    },
+    "weighted avg": {
+      "precision": 0.992267365661861,
+      "recall": 0.9923984272608126,
+      "f1-score": 0.9923110528615117,
+      "support": 3815.0
+    }
+  },
+  "split_note": "Group split by source file is attempted first to reduce window leakage; fallback is stratified sample split."
+}

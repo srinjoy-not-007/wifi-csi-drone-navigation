@@ -1,0 +1,36 @@
+ESP32 CSI analysis summary
+==========================
+
+{
+  "raw_dir": "/home/srinjoy/wifi_csi_exp/raw",
+  "out_dir": "/home/srinjoy/wifi_csi_exp/reports",
+  "packet_counts": {
+    "A_yaw0_static": 2368,
+    "A_yaw90_static": 3199,
+    "B_yaw0_static": 3198,
+    "B_yaw90_static": 2940,
+    "B_yaw90_vibration": 2938
+  },
+  "packet_feature_shape": [
+    14643,
+    64
+  ],
+  "window_feature_shape": [
+    907,
+    256
+  ],
+  "window_size": 32,
+  "stride": 16,
+  "pca_explained_variance_ratio": [
+    0.4882590174674988,
+    0.21905946731567383
+  ],
+  "condition_classifier_accuracy": 0.9597069597069597,
+  "train_yaw0_test_yaw90_location_accuracy": 0.968421052631579
+}
+
+Interpretation notes:
+- PCA separation between A_yaw0 and B_yaw0 suggests location affects CSI.
+- PCA separation between A_yaw0 and A_yaw90 or B_yaw0 and B_yaw90 suggests receiver orientation affects CSI even at the same location.
+- PCA separation between B_yaw90_static and B_yaw90_vibration suggests drone-like body motion changes CSI distribution even at same location/yaw.
+- These are sanity checks, not a calibrated RF localization benchmark.
