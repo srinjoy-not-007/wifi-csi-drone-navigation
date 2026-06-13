@@ -657,6 +657,16 @@ A practical drone CSI system should collect data with yaw, tilt, and vibration d
 use pose aware augmentation, and ideally fuse CSI with IMU/VIO.
 ```
 
+## How I think this could be used on a drone
+
+I do not think CSI should be used as a standalone replacement for VIO, IMU, optical flow, or depth sensing on a drone. A more realistic use would be as an extra localization cue in a sensor-fusion system. 
+
+The drone can use IMU data to estimate fast roll, pitch, yaw, acceleration, and vibration state, while VIO or optical flow estimates short-term motion. CSI can then act like a correction signal when the drone is indoors and WiFi infrastructure is available. 
+
+For example, instead of asking CSI to directly output the full drone pose, the system could learn a CSI-based location likelihood and combine it with IMU/VIO in a filter or SLAM framework. The important part is that the CSI model should know the drone pose and motion state, because the same physical location can produce different CSI when the drone yaws, tilts, or vibrates. 
+
+So the practical version would be: collect CSI together with IMU and pose labels, train with yaw/tilt/vibration diversity, and use CSI as a supporting signal for GPS-denied indoor navigation.
+
 ## Repository structure
 
 ```text
@@ -732,6 +742,8 @@ MPLBACKEND=Agg python code/csi_drone_motion_sim.py \
 ## Notes and limitations
 
 This project is exploratory. The public dataset result is a window based CSI fingerprinting baseline, not a strict cross session benchmark. The ESP32 experiment is a small sanity check, not a full drone dataset. The simulation is a diagnostic synthetic simulator, not a calibrated RF ray tracer.
+
+The public dataset is not committed because it is large. To rerun the public dataset baseline, download the public CSI indoor-localization dataset from this GitHub repository: https://github.com/qiang5love1314/CSI-dataset. Then recreate the subset under `data/raw/public_localization_250`. The generated reports are already included in `reports/public_csi_location_250_fast`.
 
 Still, the three parts point to the same conclusion:
 
