@@ -359,6 +359,10 @@ The x axis is the CSI amplitude bin index. The y axis is the normalized amplitud
 
 ![Mean CSI amplitude by condition](reports/esp32_live/mean_amplitude_conditions.png)
 
+The mean CSI amplitude plot shows the average CSI profile across the five ESP32 conditions. The curves have a similar overall shape because all recordings use the same ESP32 board, WiFi channel, and hotspot, and because normalization and averaging remove many large-scale differences. 
+
+The useful point is that the curves are not random, and small condition-specific deviations remain. The clearer separation appears in the PCA and classifier plots below.
+
 ### ESP32 all condition PCA
 
 The all condition PCA plot compresses the window level CSI features into two dimensions.
