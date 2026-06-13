@@ -225,17 +225,27 @@ not a strict deployment grade benchmark.
 
 A more rigorous benchmark would need cross session, cross day, or cross environment splits.
 
-### Public dataset confusion matrix
+### Public dataset visualizations
 
-The public dataset confusion matrix is saved here:
+For the 250-class public CSI run, a normal labeled confusion matrix is not very readable because there are too many location classes. I still keep the 250-class heatmap as evidence of the classifier result, but the three plots below explain the dataset more clearly.
 
 ```text
 reports/public_csi_location_250_fast/confusion_matrix.png
 ```
 
-For 250 classes, the matrix is drawn as a heatmap instead of using every class name on the axes, because full labels would be unreadable. The strong diagonal means most test windows were classified into the correct coordinate class.
+![Public CSI 250-class confusion matrix](reports/public_csi_location_250_fast/confusion_matrix.png)
 
-![Public CSI 250 class confusion matrix](reports/public_csi_location_250_fast/confusion_matrix.png)
+The PCA plot below shows 10 representative location classes from the 250-class subset. The points form different regions in feature space, which visually supports the fingerprinting result. This is the clearest public-dataset plot because it shows that different coordinates occupy different CSI feature regions.
+
+![Public CSI PCA](reports/public_csi_location_250_fast/public_pca_top10_locations.png)
+
+The mean CSI profile plot shows representative CSI profiles from the public dataset. Different coordinate classes have different subcarrier patterns. This explains why a classifier can learn location-specific CSI fingerprints from the dataset.
+
+![Public CSI mean profiles](reports/public_csi_location_250_fast/public_mean_profiles_top10.png)
+
+The window-count plot shows the top 30 classes by number of generated windows. In this selected subset, many of the top classes have the same number of windows, so this plot is mainly included as a quick sanity check for sample availability. It also helps explain why the final result should be read as a practical fingerprinting baseline rather than a strict deployment benchmark.
+
+![Public CSI window counts](reports/public_csi_location_250_fast/public_window_counts_top30.png)
 
 ## My own ESP32 CSI experiment
 
